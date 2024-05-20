@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(43, 172, 18);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: black;
+    transition: color 0.5s;
+}
+
+
+.backeround{
+    background-image: url(natural-green-leaves-with-blurred-background.jpg);
+    background-size: cover;
+}
+.produit{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.produit2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.poduit3{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.cat-produit img{
+    width: 300px;
+}
+
+.cat-produit h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cat-produit p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.photoscat img{
+    margin-bottom: 50px;
+}
+
+.photohuil img{
+    height:290px;
+    margin-bottom: 50px;
+}
+
+.photocomplet img{
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.photosavon{
+    margin-left: 30px;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 15px;
+    margin-right: 200px;
+}
+
+.follow i{
+    font-size: 60px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+.follow h2{
+    margin-left: 105px;
+}

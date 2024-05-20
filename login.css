@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(backround.jpg);
+    background-size: cover;
+}
+
+.logo a{
+    color: rgba(0, 0, 0, 0.959);
+    text-decoration: none;
+    padding: 14px 15px;
+    font-size: 20px;
+}
+
+.login-container {
+    background-color: transparent;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.title h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+   
+}
+
+.Remember-forgot label {
+    display: flex;
+    align-items: center;
+}
+
+.Remember-forgot a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #863178;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

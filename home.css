@@ -1,0 +1,183 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(43, 172, 18);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: black;
+    transition: color 0.5s;
+}
+
+.title h1{
+    text-align: center;
+    color: rgb(13, 126, 47);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.produit{
+    background-image: url(img.jpg);
+    background-size: cover;
+
+}
+
+.back img{
+    margin-left: 430px;
+    margin-top: -50px;
+}
+
+.prodacts{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 241, 241);
+}
+
+.choix img{
+    width: 300px;
+}
+
+.choix h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.choix p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.photocafe{
+    margin-top: 50px;
+}
+
+
+.cafe{
+    margin-top: 29px;
+}
+
+.before img{
+    width: 100%;
+}
+
+.livraison{
+    background-color: green;
+    color: white;
+
+}
+
+.title-liv {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.liv-contenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.liv-contenu div{
+    width: 200px;
+}
+
+.liv-contenu div h2{
+    margin-bottom: 12px;
+    text-align: center;
+    color: black;
+    
+}
+
+.liv-contenu p{
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    padding: 10px 50px;
+}
+.footer-up{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.footer-up div{
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+.footer-up div p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-us h2{
+    margin-bottom: 25px;
+}
+
+.visit h2{
+    margin-bottom: 25px;
+}
+.visit a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.follow i{
+    font-size: 60px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.copyrights {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
